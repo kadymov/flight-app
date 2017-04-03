@@ -28,13 +28,9 @@ export const fetchData = () => {
     
     return fetch('data.json')
       .then(response => response.json())
-      .then(json =>
+      .then(json => dispatch(receiveData(json)));
 
-        // We can dispatch many times!
-        // Here, we update the app state with the results of the API call.
-
-        dispatch(receiveData(json))
-      )
+      // TODO: Errors
   };
 };
 
