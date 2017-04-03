@@ -1,0 +1,18 @@
+.direction {
+    font-size: 16px;
+    color: #2C3E50;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.carrier {
+    color: #E74C3C;
+    text-align: right;
+    font-style: italic;
+}
+
+.time {
+    color: #2980B9;
+    font-size: 12px;
+}
